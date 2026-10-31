@@ -1,16 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html {
-  background-color: red;
-  color: black;
+body {
+  font-family: "Slackey", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25rem;
+  background-color: #290044;
+  color: #EEE3B0;
   text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  height: 100dvh;
+}
+
+h1 {
+  padding-block: 2rem;
+}
+
+h3 {
+  padding-block: 1.5rem;
 }
 
 .main {
   display: flex;
   flex-flow: column-wrap;
+  gap: 2rem;
+  flex-grow: 1;
+  margin: 0 auto;
+}
+
+.dice-outer {
+  width: minmax(200px, 25dvh);
+}
+
+.dice-img {
+  width: clamp(200px, 50vw, 400px);
+  height: auto;
+  background-color: #8A2A78;
+  border-radius: 25%;
+}
+
+footer {
+  margin-bottom: 0px;
+  flex-grow: 0;
 }

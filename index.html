@@ -1,32 +1,37 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Dice RoLL</title>
-  </head>
 
-  <body>
-    <header>
-      <h1>Refresh To Roll!</h1>
-    </header>
-    <main class="main">
-      <div class="dice-outer">
-        <h3 class="player">Player 1</h3>
-        <div class="dice-inner">
-          <figure>
-            <image src="assets/dice_6.png" alt="dice image"></image>
-          </figure>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <title>Dice RoLL</title>
+  <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <h1>Refresh To Roll!</h1>
+    <p class="conclusion-text"></p>
+  </header>
+  <main class="main">
+    <div class="dice-outer">
+      <h3 class="player">Player 1</h3>
+      <div class="dice-inner">
+        <figure>
+          <image class="dice-img" src="assets/dice_6.png" alt="dice image"></image>
+        </figure>
       </div>
-      <div class="dice-outer">
-        <h3 class="player">Player 2</h3>
-        <div class="dice-inner">
-          <figure>
-            <image src="assets/dice_6.png" alt="dice image"></image>
-          </figure>
-        </div>
+    </div>
+    <div class="dice-outer">
+      <h3 class="player">Player 2</h3>
+      <div class="dice-inner">
+        <figure class="dice-figure">
+          <img class="dice-img" src="assets/dice_6.png" alt="dice image"></img>
+        </figure>
       </div>
-    </main>
-    <footer>the_dice_co.</footer>
-  </body>
+    </div>
+  </main>
+  <footer>the_dice_co.</footer>
+</body>
+<script src="main.js" defer></script>
+
 </html>
