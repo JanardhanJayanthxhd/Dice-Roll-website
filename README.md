@@ -29,4 +29,4 @@ This project shows the classic dice game layout with two dice, a winner message,
 
 The page looks like this:
 
-![Dice game screenshot](screenshot.png)
+![Dice game screenshot](assets/screenshot.png)
