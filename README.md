@@ -4,8 +4,6 @@ A simple browser-based dice game where two players roll dice and the winner is a
 
 ## Preview
 
-![Dice game preview](./assets/dice_6.png)
-
 This project shows the classic dice game layout with two dice, a winner message, and a purple theme.
 
 ## How to run
